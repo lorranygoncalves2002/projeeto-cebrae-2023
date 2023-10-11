@@ -1,0 +1,116 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    background-color: rgb(3, 3, 159);
+    display: inline-block;
+    position: sticky;
+    width: 100%;
+}
+nav#menu ul li {
+    display: inline-block;
+}
+nav#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#logocrb{
+    width: 90px;
+    float: left ;
+    padding: 5px 150px 0px 50px;
+}
+nav#menu ul li A{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 25px 40px 2px 5px  ;
+}
+#entrar{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(43, 48, 54);
+    text-align: center;
+    font-size: 35px;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 70px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(144, 145, 146);
+    text-align: center;
+    font-size: 20px;
+    max-width: 620px;
+    float: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+section#cards div{
+    display: inline-block;
+    position: sticky;
+    margin: auto;
+    align-content: center;
+
+}
+#cards{
+    margin: auto;
+    display: block;
+    align-content: center;
+}
+div#card1{
+    background-color: aquamarine;
+    background-image:linear-gradient(to right,red,yellow,rgb(3, 143, 198),green);
+    width: 240px;
+    height: 134px;
+    border-radius: 5px;
+    float:left;
+    display: block;
+   
+    
+}
+div#card2{
+    background-image: url(cebraecmc.png);
+    width: 240px;
+    height: 140px;
+    
+}
+div#card3{
+    background-image: url(cebraeseja.svg);
+    width: 240px;
+    height: 140px;
+}
+div#card4{
+    background-image: url(cebraefaca.svg);
+    width: 240px;
+    height: 140px;
+}
+div#card5{
+    background-image: url(cebraealcc.svg);
+    width: 240px;
+    height: 140px;
+}
+.textoc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 30px 20px;;
+    font-weight: bold;
+    max-width: 200px;
+    text-shadow:3px 0px 5px black;
+}
